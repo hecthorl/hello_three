@@ -1,5 +1,4 @@
 import {
-   Color,
    Mesh,
    MeshStandardMaterial,
    SphereBufferGeometry,
@@ -8,7 +7,7 @@ import {
 
 //loader
 const textureLoader = new TextureLoader();
-const normalTexture = textureLoader.load('../mapa.jpg');
+const normalTexture = textureLoader.load('mapa.jpg');
 
 const geometry = new SphereBufferGeometry(0.5, 64, 64);
 const material = new MeshStandardMaterial({
