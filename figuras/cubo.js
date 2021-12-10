@@ -8,7 +8,7 @@ const material = new MeshPhongMaterial({
    color: 'gold',
 });
 
-// Mesh
+// Mesh o malla
 const cube = new Mesh(geometry, material);
 cube.position.x = 1;
 
